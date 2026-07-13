@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Steam 价格转换",
+  "version": "1.0",
+  "description": "在Steam页面上自动将外币价格转换为人民币(CNY)显示，无需任何操作",
+  "permissions": [
+    "https://open.er-api.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://store.steampowered.com/*",
+        "https://steamcommunity.com/*"
+      ],
+      "js": ["steam.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "icons": {
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  }
+}
