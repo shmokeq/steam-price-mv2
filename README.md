@@ -1,6 +1,6 @@
 # Steam 价格转换 MV2
 
-在 Steam 页面自动将外币价格转换为人民币（CNY）显示。专门兼容 Steam 内置 CEF 浏览器，无需 Tampermonkey 或其他依赖。
+在 Steam 页面自动将外币价格转换为人民币（CNY）显示。专门兼容 Steam 内置 CEF 浏览器，无需 Tampermonkey 或其他依赖。实现在Steam客户端的外币实时换汇,适用于非国区账号价格的对比
 
 ## 安装
 
