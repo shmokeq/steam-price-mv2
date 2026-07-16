@@ -89,4 +89,4 @@ steam-price-mv2/
 
 ## License
 
-MIT
+本项目遵循开源协议，具体请查看 LICENSE 文件。
